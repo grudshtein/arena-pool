@@ -1,7 +1,10 @@
 #pragma once
 
 #include <cassert>
+#include <cstdint>
 #include <vector>
+
+namespace arena {
 
 template <typename T> class arena_pool {
   public:
@@ -74,3 +77,5 @@ template <typename T> class arena_pool {
         return allocated_[static_cast<std::size_t>(ptr - arena_)];
     }
 };
+
+} // namespace arena

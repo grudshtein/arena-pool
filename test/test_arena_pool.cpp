@@ -2,6 +2,8 @@
 
 #include "arena_pool.hpp"
 
+using arena::arena_pool;
+
 TEST(ArenaPool, Construct) {
     const auto capacity = 256;
     arena_pool<int> pool(capacity);
