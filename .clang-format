@@ -3,3 +3,5 @@ IndentWidth: 4
 ColumnLimit: 100
 AllowShortFunctionsOnASingleLine: Empty
 SortIncludes: true
+PointerAlignment: Left
+AllowShortIfStatementsOnASingleLine: true
