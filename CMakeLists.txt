@@ -44,3 +44,17 @@ target_link_libraries(test_arena_pool PRIVATE
 # --- CTest ---
 enable_testing()
 add_test(NAME arena_pool_tests COMMAND test_arena_pool)
+
+# --- Bench executable
+add_executable(bench_arena_pool
+    bench/main.cpp
+    bench/bench_arena_pool.cpp
+    bench/bench_arena_pool.hpp
+)
+target_include_directories(bench_arena_pool PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+target_compile_definitions(bench_arena_pool
+    PRIVATE PROJECT_SOURCE_DIR="${CMAKE_SOURCE_DIR}"
+)
+enable_strict_warnings(bench_arena_pool)
