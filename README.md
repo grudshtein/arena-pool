@@ -66,7 +66,7 @@ Benchmarks compare `arena_pool<T>` vs `new`/`delete` across:
 
 Testbed: AMD 7950X, Ubuntu 24.04, Clang 18, -O3 -march=native
 
-## Results:
+## Results
 
 ![Median Latency per Operation](plots/latency-median-arena-vs-newdelete.png)
 
