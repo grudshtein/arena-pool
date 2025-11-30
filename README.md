@@ -53,8 +53,8 @@ cmake --build build -j
 
 Produces:
 ```bash
-build/tests     # gtest test suite
-build/bench     # benchmark generator
+build/test_arena_pool   # gtest test suite
+build/bench_arena_pool  # benchmark generator
 ```
 
 ## Benchmark
