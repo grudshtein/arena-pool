@@ -6,3 +6,4 @@ SortIncludes: true
 PointerAlignment: Left
 AllowShortIfStatementsOnASingleLine: true
 InsertNamespaceComments: true
+AlwaysBreakTemplateDeclarations: Yes
