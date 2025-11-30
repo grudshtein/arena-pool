@@ -1,6 +1,7 @@
 # IDE and Build Files
 .vscode/
 build/
+results/
 
 # Prerequisites
 *.d
